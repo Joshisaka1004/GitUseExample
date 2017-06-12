@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     @IBAction func calculate(_ sender: UIButton) {
         let erg = counter * 12
         counter += 1
-        myLabel.text = " \(erg)"
+        myLabel.text! += " \(erg)"
     }
 }
 
