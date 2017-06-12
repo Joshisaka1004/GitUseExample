@@ -37,14 +37,25 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MyNewLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Krx-KR-dxF">
+                                <rect key="frame" x="88" y="90" width="200" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="qaE-Rw-fdX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Krx-KR-dxF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="70" id="B3U-Tz-aHF"/>
                             <constraint firstItem="S2W-jq-6pz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DCu-LK-fw4"/>
                             <constraint firstItem="S2W-jq-6pz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="60" id="IEW-vz-jjP"/>
                             <constraint firstItem="soP-1J-wDc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="243" id="dXT-Fp-ZPd"/>
                             <constraint firstItem="soP-1J-wDc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="3.5" id="hRx-pe-3M4"/>
                             <constraint firstItem="S2W-jq-6pz" firstAttribute="top" secondItem="soP-1J-wDc" secondAttribute="bottom" constant="86" id="pFv-YC-BSC"/>
+                            <constraint firstItem="Krx-KR-dxF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tbw-bt-ZaK"/>
                         </constraints>
                     </view>
                     <connections>
