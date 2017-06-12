@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var counter = 1
     @IBOutlet weak var myLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +22,11 @@ class ViewController: UIViewController {
         print("Hallo?")
         print("Yeah")
         myLabel.text = "Oops, text has been changed now."
+    }
+    @IBAction func calculate(_ sender: UIButton) {
+        let erg = counter * 12
+        counter += 1
+        myLabel.text = " \(erg)"
     }
 }
 

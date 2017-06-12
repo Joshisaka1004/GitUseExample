@@ -46,6 +46,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uJf-rz-Lvj">
+                                <rect key="frame" x="48.5" y="479" width="278" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.61037868920000005" blue="0.36263020829999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Bvt-2A-V7Q"/>
+                                    <constraint firstAttribute="width" constant="278" id="cjj-Aj-MxA"/>
+                                </constraints>
+                                <state key="normal" title="Calculate Something!"/>
+                                <connections>
+                                    <action selector="calculate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ujx-Cq-iP1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -54,8 +66,10 @@
                             <constraint firstItem="S2W-jq-6pz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="60" id="IEW-vz-jjP"/>
                             <constraint firstItem="soP-1J-wDc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="243" id="dXT-Fp-ZPd"/>
                             <constraint firstItem="soP-1J-wDc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="3.5" id="hRx-pe-3M4"/>
+                            <constraint firstItem="uJf-rz-Lvj" firstAttribute="top" secondItem="S2W-jq-6pz" secondAttribute="bottom" constant="62" id="hSk-s9-GEF"/>
                             <constraint firstItem="S2W-jq-6pz" firstAttribute="top" secondItem="soP-1J-wDc" secondAttribute="bottom" constant="86" id="pFv-YC-BSC"/>
                             <constraint firstItem="Krx-KR-dxF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tbw-bt-ZaK"/>
+                            <constraint firstItem="uJf-rz-Lvj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yTJ-2D-Oba"/>
                         </constraints>
                     </view>
                     <connections>
