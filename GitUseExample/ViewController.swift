@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     @IBAction func buttonClicked(_ sender: UIButton) {
         print("This is still a good Git Tutorial!")
         print("Finished right now")
-        myLabel.text = "Oopsi, text has been changed now."
+        myLabel.text = "Oops, text has been changed now."
     }
     @IBAction func calculate(_ sender: UIButton) {
         let erg = counter * 12
